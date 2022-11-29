@@ -8,7 +8,7 @@ chmod +x jenkins_container.sh
 ````
 3. Build the custom image from the Dockerfile
 ````
-docker build -t jenkins-with-docker
+docker build -t jenkins-with-docker .
 ````
 4. Start the container from the custom image using the "jenkins_container.sh" script
 5. Enter the running container to give all users read/write access to /var/run/docker.sock
